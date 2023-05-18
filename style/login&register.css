@@ -1,4 +1,4 @@
-/* body, .card-header{
+ body, .card-header{
     background-color: rgb(1, 1, 15) !important;
     background-image: url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-52379.jpg?w=900&t=st=1684394291~exp=1684394891~hmac=c262d9e4688e3f7984de8ff95f8509697296cd4f8bdd15f78b0e3faa29373fce");
     background-repeat: repeat;
@@ -19,10 +19,11 @@
     display: block !important;
   } 
 
- footer{
-    background-color: #45637d;
-  }
-
+ footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
   .volver {
     color: #f0f0f0;
     text-decoration: none !important;
@@ -34,4 +35,4 @@
 
   .volver:hover {
     color: #007bff;
-  } */
+  } 

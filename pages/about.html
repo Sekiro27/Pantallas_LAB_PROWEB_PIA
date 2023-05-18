@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pantalla de Inicio</title>
+    <title>Acerca del Proyecto</title>
     <!--LINKS DE ESTILOS-->
     <link rel="stylesheet" href="../style/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,55 +13,63 @@
 </head>
 <body>
 
+
     <!--NAVBAR PANTALLA DE INICIO-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand mr-auto" href="#"> <h1>App para reseñas de peliculas</h1></a>
+    
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        
+        <ul>
+            <a href="./main.html" class="btn btn-circle btn-volver btn-secondary">
+            <i class="fas fa-arrow-left"></i></a>
+        </ul>
+        
+        
+        <ul><a class="navbar-brand mr-auto" href="#"> <h1>Acerca del proyecto</h1></a></ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link btn btn-secondary mr-2" href="#"><h5>Iniciar sesión</h5></a>
+              <a class="nav-link btn btn-secondary mr-2" href="./login.html"><h5>Iniciar sesión</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-secondary mr-2" href="#"> <h5>Registrarse</h5> </a>
+              <a class="nav-link btn btn-secondary mr-2" href="./register.html"> <h5>Registrarse</h5> </a>
             </li>
           </ul>
         </div>
     </nav>
 
 
-    <!--CONTENEDOR DE IMAGEN-->
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <div class="image-container">
-              <img src="../img/cine.jpg" alt="Imagen">
-            </div>
-          </div>
-
-    <!--CONTENEDOR DE TARJETA DE TEXTO-->
-          <div class="col-md-6">
-            <div class="caja-texto">
-              <h2>Caja de texto para info de la web</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere elit eget enim lacinia, sed vestibulum ipsum gravida. Integer id nunc placerat, ultrices mi ut, iaculis nulla. Nullam consectetur varius dolor ac placerat. Fusce et facilisis ligula.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium velit fugit, corrupti, eos adipisci iure repellendus dolorum nobis accusamus rerum maxime laudantium vitae deserunt reprehenderit minima aperiam ea aliquid illum.
-              </p>
+    <!--TARJETA CONTENEDORA-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="card mt-4">
+            <img src="../img/crear-una-pagina-web-para-vender-2-1024x728-1.jpg" class="card-img-top" alt="Imagen de la tarjeta">
+            <div class="card-body">
+              <h5 class="card-title">Nuestro proyecto...</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur voluptatibus nisi odit vel quasi aperiam cum numquam facilis non nulla impedit ad ipsum sequi, deserunt aliquam esse perferendis eveniet aspernatur.</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    
 
 
-    <!--BOTON INFERIOR ACERCA DEL PROYECTO-->
-      <a class="btn btn-secondary btn-bottom-left" href="./acerca.html" role="button"> <h5>Acerca del proyecto</h5> </a>
 
-      
+    <!--BOTON INFERIOR INTEGRANTES DEL EQUIPO-->
+    <a class="btn btn-secondary btn-bottom-left" href="./team.html" role="button"> <h5>Integrantes del equipo</h5> </a>
 
-<!--SCRIPTS DE BS-->
+
+
+
+
+  <!--SCRIPTS DE BS-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
 </body>
 </html>
